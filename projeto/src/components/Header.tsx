@@ -1,4 +1,4 @@
-import LogoMatch from '../assets/LogoMatchTransparent2 1.png';
+import LogoMatch from '../assets/LogoMatchTransparent2_resized.png';
 import { UserRound, Search } from 'lucide-react';
 
 export const Header = () => {

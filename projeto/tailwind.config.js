@@ -7,9 +7,6 @@ export default {
         sans: 'Inter, sans-serif',
       },
     },
-    // height: {
-    //   banner: 'calc(100vh - 80px)',
-    // },
   },
   plugins: [],
 };

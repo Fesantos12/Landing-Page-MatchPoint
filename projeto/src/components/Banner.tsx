@@ -1,5 +1,6 @@
 import LogoBanner from '../assets/LogoMatchTransparent2_resizedbanner.png';
 import { ChevronRightCircle } from 'lucide-react';
+import { Button } from './Button';
 
 export const Banner = () => {
   return (
@@ -16,14 +17,7 @@ export const Banner = () => {
           <div className="flex flex-wrap text-6xl">
             Um projeto pra trazer o esporte para a vida de todos!
           </div>
-          <a
-            href="https://www.instagram.com/matchpointprojeto/"
-            target="_blank"
-            className="w-52 h-16 bg-red-700 rounded-xl flex items-center justify-center gap-3 text-2xl cursor-pointer transition-colors hover:bg-red-900"
-          >
-            <ChevronRightCircle />
-            Saiba mais
-          </a>
+          <Button icon={<ChevronRightCircle />} texto="Saiba mais" />
         </div>
       </div>
     </>

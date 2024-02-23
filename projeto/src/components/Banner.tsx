@@ -5,7 +5,7 @@ import { Button } from './Button';
 export const Banner = () => {
   return (
     <>
-      <div className="w-screen h-[calc(100vh - 80px)] flex items-center">
+      <div className="w-full h-banner flex items-center border-b-2 border-slate-200">
         <div className="w-full justify-center items-center">
           <img
             src={LogoBanner}
@@ -14,7 +14,7 @@ export const Banner = () => {
           />
         </div>
         <div className="w-full flex flex-col items-start gap-6">
-          <div className="flex flex-wrap text-6xl">
+          <div className="flex flex-wrap text-6xl text-slate-200">
             Um projeto pra trazer o esporte para a vida de todos!
           </div>
           <Button icon={<ChevronRightCircle />} texto="Saiba mais" />

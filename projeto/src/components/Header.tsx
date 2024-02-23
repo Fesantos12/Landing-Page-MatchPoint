@@ -4,7 +4,7 @@ import { UserRound, Search } from 'lucide-react';
 export const Header = () => {
   return (
     <>
-      <header className="w-screen h-20 bg-red-700 flex items-center justify-around">
+      <header className="w-full h-20 bg-red-700 flex items-center justify-around">
         <img
           className="size-20"
           src={LogoMatch}
